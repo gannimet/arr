@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html data-ng-app="arrApp">
+    <head>
+        <title>Rails Resource Test</title>
+    </head>
+    <body data-ng-controller="arrController as ctrl">
+        <button data-ng-click="ctrl.listAll()">LIST ALL</button>
+        <button data-ng-click="ctrl.getSingle()">GET SINGLE</button>
+        <button data-ng-click="ctrl.postNew()">POST NEW</button>
+        <button data-ng-click="ctrl.update()">UPDATE</button>
+
+        <script type="text/javascript" src="/node_modules/angular/angular.min.js"></script>
+        <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+        <script type="text/javascript" src="/node_modules/angularjs-rails-resource/angularjs-rails-resource.js"></script>
+        <script type="text/javascript" src="/src/client/js/arrApp.js"></script>
+    </body>
+</html>
