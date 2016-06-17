@@ -1,0 +1,1 @@
+This project demonstrates what I think is a bug in `angularjs-rails-resource`. Whenever the objects inside the http response don't have an `id` field, GET and PUT requests don't attach the identifier field to the url, even if it is made known to `angularjs-rails-resource` via the `idAttribute` config parameter.
